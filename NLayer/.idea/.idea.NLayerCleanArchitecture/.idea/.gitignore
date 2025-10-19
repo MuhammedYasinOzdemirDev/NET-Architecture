@@ -1,0 +1,112 @@
+# ========================================
+# OS / IDE / Tool specific ignores
+# ========================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Rider / IntelliJ
+.idea/
+*.iml
+/shelf/
+/workspace.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# VSCode
+.vscode/
+
+# ========================================
+# .NET / Visual Studio / Build ignores
+# ========================================
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+out/
+TestResults/
+build/
+
+# Coverage
+*.coverage
+*.coveragexml
+coverage/
+*.codecov
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuproj
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework Migrations
+Migrations/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio for Mac
+.idea/
+*.userprefs
+
+# Tye
+.tye/
+
+# ========================================
+# Logs / Temp / Misc
+# ========================================
+
+*.log
+*.tlog
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ========================================
+# Environment / Secrets / Configs
+# ========================================
+
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+
+# ========================================
+# JetBrains Rider specific caches
+# ========================================
+
+.idea/.idea.NLayerCleanArchitecture.iml
+.idea/.idea.*.iml
+.idea/.idea.*
+.idea/workspace.xml
+.idea/tasks.xml
+
+# ========================================
+# End of file
+# ========================================
