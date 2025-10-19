@@ -6,4 +6,4 @@ public class Product
     public string Name { get; set; } = default!; // null deger alinmicak belirtiliyor
     public decimal Price { get; set; }
     public int Stock { get; set; }
-}
+} 
