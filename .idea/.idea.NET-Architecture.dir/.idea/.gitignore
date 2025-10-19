@@ -5,36 +5,24 @@
 # macOS
 .DS_Store
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
 # Rider / IntelliJ
 .idea/
 *.iml
-/shelf/
-/workspace.xml
-/projectSettingsUpdater.xml
-/modules.xml
-/contentModel.xml
-/httpRequests/
-/dataSources/
-/dataSources.local.xml
+shelf/
+workspace.xml
+projectSettingsUpdater.xml
+modules.xml
+contentModel.xml
+httpRequests/
+dataSources/
+dataSources.local.xml
 
 # VSCode
 .vscode/
 
 # ========================================
-# .NET / Visual Studio / Build ignores
+# .NET / Build output
 # ========================================
-
-# User-specific files
-*.user
-*.rsuser
-*.suo
-*.userosscache
-*.sln.docstates
 
 # Build results
 [Bb]in/
@@ -44,61 +32,49 @@ out/
 TestResults/
 build/
 
-# Coverage
-*.coverage
-*.coveragexml
-coverage/
-*.codecov
-
 # NuGet
 *.nupkg
 *.snupkg
 *.nuspec
-*.nuproj
 packages/
 .nuget/
 project.lock.json
-project.fragment.lock.json
 artifacts/
 
-# Entity Framework Migrations
-Migrations/
+# Coverage
+*.coverage
+*.coveragexml
+coverage/
 
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# Visual Studio for Mac
-.idea/
-*.userprefs
-
-# Tye
-.tye/
+# Entity Framework migrations (isteğe bağlı)
+# Migrations/
 
 # ========================================
-# Logs / Temp / Misc
+# User / Temp / Cache
 # ========================================
 
-*.log
-*.tlog
+*.user
+*.suo
+*.rsuser
+*.cache
 *.tmp
-*.temp
 *.bak
 *.swp
 *.swo
+*.tlog
 
 # ========================================
-# Environment / Secrets / Configs
+# Secrets / Configs
 # ========================================
 
 .env
 .env.*
 appsettings.Development.json
 appsettings.Local.json
-appsettings.*.json
 secrets.json
 
 # ========================================
-# JetBrains Rider specific caches
+# JetBrains Rider extra
 # ========================================
 
 .idea/.idea.NLayerCleanArchitecture.iml
@@ -106,7 +82,3 @@ secrets.json
 .idea/.idea.*
 .idea/workspace.xml
 .idea/tasks.xml
-
-# ========================================
-# End of file
-# ========================================
