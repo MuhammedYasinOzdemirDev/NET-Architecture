@@ -1,5 +1,4 @@
 using System.Reflection;
-using App.Repositories.Configuration;
 using App.Repositories.Entity;
 using Microsoft.EntityFrameworkCore;
 

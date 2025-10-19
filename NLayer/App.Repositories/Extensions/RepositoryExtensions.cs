@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,7 +11,7 @@ public static class RepositoryExtensions
      *
        <ItemGroup>
          <FrameworkReference Include="Microsoft.AspNetCore.App" />
-       </ItemGroup> 
+       </ItemGroup>
      */
     public static IServiceCollection AddRepositories(this IServiceCollection services, IConfiguration configuration)
     {
